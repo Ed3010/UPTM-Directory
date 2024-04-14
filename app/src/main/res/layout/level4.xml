@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dfs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1.5"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.2" />
+
+        <TextView
+            android:id="@+id/dffsfss"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.3" />
+
+        <TextView
+            android:id="@+id/dfsssf"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.4" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/rec">
+
+            <TextView
+                android:id="@+id/dfsfsssfs"
+                style="@style/CustomTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:rotation="-90"
+                android:text="Fire Exit" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/dfsfs23fs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.5" />
+
+        <TextView
+            android:id="@+id/dfsdfd"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.6" />
+
+        <TextView
+            android:id="@+id/dfsfsas23fs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.7" />
+
+        <TextView
+                android:id="@+id/dfssfssfsf55fs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.8" />
+
+        <TextView
+            android:id="@+id/dsfsfsf2327s"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.9" />
+
+        <TextView
+            android:id="@+id/dsfsf466sfs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.10" />
+
+        <TextView
+            android:id="@+id/dfssffdfdsf"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.11" />
+
+        <TextView
+            android:id="@+id/dggsfsfs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.12" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dsfsafsfs"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:background="@drawable/white_red"
+                android:gravity="center"
+                android:text="CR4.13" />
+
+            <TextView
+                android:id="@+id/dfsfsfs"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@drawable/rec"
+                android:gravity="center"
+                android:text="Tecn"
+                android:textSize="8sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dfsfss"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="start"
+                android:layout_weight="1.5"
+                android:background="@drawable/white_red"
+                android:gravity="center"
+                android:text="CR4.1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/CustomTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/yellow_red"
+                    android:gravity="center"
+                    android:text="Toilet" />
+
+                <TextView
+                    style="@style/CustomTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/yellow_red"
+
+                    android:gravity="center"
+                    android:text="Toilet" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dsaffafafs"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="start"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/white_red"
+                android:gravity="center"
+                android:text="LR4.1 Drawing" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/floorLift1"
+                    style="@style/CustomTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lift_bg"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="5dp"
+                    android:text="Lift1"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/floorLift2"
+                    style="@style/CustomTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lift_bg"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="5dp"
+                    android:text="Lift2"
+                    android:textSize="8sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dfsfsfss"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="LR4.2" />
+
+        <TextView
+            android:id="@+id/dsfsdfdf55fsfs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="LR4.3" />
+
+        <TextView
+            android:id="@+id/dsfsffs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="LR4.4" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight=".3"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/dfssfsfs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_gravity="start"
+            android:layout_weight=".5"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="LR4.5" />
+
+        <TextView
+            android:id="@+id/dfssfrttsf"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_gravity="start"
+            android:layout_weight=".5"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="LR4.5" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dsfsfs345454fs"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="start"
+                android:background="@drawable/white_red"
+                android:gravity="center"
+                android:text="CR4.28" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".6"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lift_bg"
+                    android:paddingHorizontal="5dp"
+                    android:paddingVertical="5dp"
+                    android:text="Lift3"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/dsfsfsasfsfs"
+                    style="@style/CustomTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lift_bg"
+                    android:padding="5dp"
+                    android:text="Lift4"
+                    android:textAlignment="center"
+                    android:textSize="8sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight=".3"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dsfsfsafs"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/fire_exit_bg"
+                android:gravity="center"
+                android:text="Fire Exit" />
+
+            <TextView
+                android:id="@+id/dsfss578788fsfsafs"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:background="@drawable/rec_purple_red"
+                android:gravity="center"
+                android:text="Store" />
+
+            <TextView
+                android:id="@+id/dsfsfsafaas"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/yellow_red"
+                android:gravity="center"
+                android:text="Toilet" />
+
+            <TextView
+                android:id="@+id/dsfsfsasfsffs"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/yellow_red"
+                android:gravity="center"
+                android:text="Toilet" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/CustomTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".3"
+                    android:background="@drawable/rec_purple_red"
+                    android:gravity="center"
+                    android:text="Store" />
+
+                <TextView
+                    style="@style/CustomTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".7"
+                    android:background="@drawable/fire_exit_bg"
+                    android:gravity="center"
+                    android:text="Fire Exit" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dsfsfsdddvasfsfs"
+                android:layout_marginStart="30dp"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/white_red"
+                android:gravity="center"
+                android:text="CR4.27" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dsfsdfdfd56fsasfsfs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="LR4.12" />
+
+        <TextView
+            android:id="@+id/dssfaafsfsafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="LR4.11" />
+
+        <TextView
+            android:id="@+id/dsfsfsfgyyfsfsafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="LR4.10" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight=".3"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/dsfsssfyysafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight=".5"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="LR4.9" />
+
+        <TextView
+            android:id="@+id/dsfsfssfsafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight=".5"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="LR4.8" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dsfsfsfrrssafs"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/white_red"
+                android:gravity="center"
+                android:text="LR4.7" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight=".3"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dsfssfsfseeafs"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/white_red"
+                android:gravity="center"
+                android:text="CR4.14" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/sfsdsfsfsafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.26" />
+
+        <TextView
+            android:id="@+id/dsfsqqsfsfsafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.25" />
+
+        <TextView
+            android:id="@+id/dsfsssuusfsafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.24" />
+
+        <TextView
+            android:id="@+id/dsfsfsfsafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.23" />
+
+        <TextView
+            android:id="@+id/dsfsfuytrsfssafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.22" />
+
+        <TextView
+            android:id="@+id/dsfsfssfsddddfdafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="2"
+            android:background="@drawable/fire_exit_bg"
+            android:gravity="center"
+            android:text="Coop" />
+
+        <TextView
+            android:id="@+id/dsssfsfsafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.19" />
+
+        <TextView
+            android:id="@+id/dsfsssfopopsafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.18" />
+
+        <TextView
+            android:id="@+id/dsfsfsssafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/rec"
+            android:gravity="center"
+            android:textSize="8sp"
+            android:text="Fire Exit" />
+
+        <TextView
+            android:id="@+id/dsfsssfsuiopafs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.17" />
+
+        <TextView
+            android:id="@+id/dsfsfsaaadfs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR4.15" />
+
+    </LinearLayout>
+</LinearLayout>

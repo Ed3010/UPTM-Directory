@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/kualit"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="start"
+                android:layout_weight=".2"
+                android:background="@drawable/rec"
+                android:gravity="center"
+                android:text="KuaLit" />
+
+            <TextView
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow_red"
+                android:gravity="center"
+                android:text="Toilet" />
+
+            <TextView
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow_red"
+                android:gravity="center"
+                android:text="Toilet" />
+
+            <TextView
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/store_bg"
+                android:gravity="center"
+                android:text="Store" />
+
+            <TextView
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fire_exit_bg"
+                android:gravity="center"
+                android:text="Fire Exit" />
+
+            <TextView
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/store_bg"
+                android:gravity="center"
+                android:text="Store" />
+
+            <TextView
+                android:id="@+id/feha2"
+                style="@style/CustomTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/rec"
+                android:gravity="center"
+                android:text="Feha" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rec">
+
+                    <TextView
+                        android:id="@+id/KUALITI"
+                        style="@style/CustomTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:rotation="-90"
+                        android:text="KUALITI" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/IGS"
+                    style="@style/CustomTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rec"
+                    android:gravity="center"
+                    android:text="IGS" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@drawable/rec">
+
+                    <TextView
+                        style="@style/CustomTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:rotation="-90"
+                        android:text="Fire Exit" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/SIMULASITaska"
+                    style="@style/CustomTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_red"
+                    android:foregroundGravity="top"
+                    android:gravity="center"
+                    android:text="SIMULASI Taska" />
+
+                <TextView
+                    android:id="@+id/Kaunselar"
+                    style="@style/CustomTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:background="@drawable/rec"
+                    android:gravity="center"
+                    android:text="Kaunselar" />
+
+                <TextView
+                    android:id="@+id/BILIKSAKTI"
+                    style="@style/CustomTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="start"
+                    android:layout_weight=".5"
+                    android:background="@drawable/rec"
+                    android:gravity="center"
+                    android:text="BILIKSAKTI" />
+
+                <TextView
+                    android:id="@+id/Asad"
+                    style="@style/CustomTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/rec"
+                    android:gravity="center"
+                    android:text="Asad" />
+
+                <TextView
+                    android:id="@+id/Asad1"
+                    style="@style/CustomTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="start"
+                    android:layout_weight=".8"
+                    android:background="@drawable/rec"
+                    android:gravity="center"
+                    android:text="Asad" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2">
+
+                            <TextView
+                                android:id="@+id/BilikMESYuaratMutiara"
+                                style="@style/CustomTextStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/rec"
+                                android:gravity="center"
+                                android:text="Bilik MESYuarat Mutiara" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/HEP"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/rec"
+                            android:gravity="center"
+                            android:text="HEP" />
+
+                        <TextView
+                            android:id="@+id/MPP"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight=".7"
+                            android:background="@drawable/rec"
+                            android:gravity="center"
+                            android:text="MPP" />
+
+                        <TextView
+                            android:id="@+id/square"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="start"
+                            android:layout_weight=".7"
+                            android:background="@drawable/rec"
+                            android:gravity="center"
+                            android:text="STD Square" />
+
+                        <TextView
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="start"
+                            android:layout_weight=".5"
+                            android:background="@drawable/white_red"
+                            android:gravity="center"
+                            android:text="LAB \n 12" />
+
+                        <TextView
+                            android:id="@+id/bilik"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="start"
+                            android:layout_weight=".5"
+                            android:background="@drawable/rec"
+                            android:gravity="center"
+                            android:text="BILIK FAIL"
+                            android:textSize="8sp" />
+
+                        <TextView
+                            android:id="@+id/asad3"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="start"
+                            android:layout_weight="2"
+                            android:background="@drawable/rec"
+                            android:gravity="center"
+                            android:text="Asad" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="5dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/level1lift"
+                                    style="@style/CustomTextStyle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/lift_bg"
+                                    android:paddingHorizontal="5dp"
+                                    android:paddingVertical="5dp"
+                                    android:text="Lift1"
+                                    android:textSize="8sp" />
+
+                                <TextView
+                                    android:id="@+id/level1lift2"
+                                    style="@style/CustomTextStyle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/lift_bg"
+                                    android:paddingHorizontal="5dp"
+                                    android:paddingVertical="5dp"
+                                    android:text="Lift2"
+                                    android:textSize="8sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/caesdf"
+                                style="@style/CustomTextStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/rec"
+                                android:gravity="center"
+                                android:text="Caes" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/dawam"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="2"
+                            android:background="@drawable/white_red"
+                            android:gravity="center"
+                            android:text="Dewam Nilam" />
+
+                        <TextView
+                            android:id="@+id/lab12"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom|end"
+                            android:layout_weight="1"
+                            android:background="@drawable/white_red"
+                            android:gravity="center"
+                            android:text="LAB13" />
+
+                        <TextView
+                            android:id="@+id/caesdfd"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:background="@drawable/white_red"
+                            android:gravity="center"
+                            android:text="Lab14" />
+
+                        <TextView
+                            android:id="@+id/caeddsdfs"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1"
+                            android:background="@drawable/white_red"
+                            android:gravity="center"
+                            android:text="Smart" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="5dp"
+                            android:layout_weight="1.5"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="5dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    style="@style/CustomTextStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/lift_bg"
+                                    android:gravity="center"
+                                    android:paddingHorizontal="5dp"
+                                    android:paddingVertical="5dp"
+                                    android:text="Lift3"
+                                    android:textSize="8sp" />
+
+                                <TextView
+                                    style="@style/CustomTextStyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/lift_bg"
+                                    android:gravity="center"
+                                    android:paddingHorizontal="5dp"
+                                    android:paddingVertical="5dp"
+                                    android:text="Lift4"
+                                    android:textSize="8sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/caesdfddss"
+                                style="@style/CustomTextStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:background="@drawable/white_red"
+                                android:gravity="center"
+                                android:text="Lab Bahasa-lg" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/feha"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/rec"
+                            android:gravity="center"
+                            android:text="Feha" />
+
+                        <TextView
+                            android:id="@+id/caes"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@drawable/rec"
+                            android:gravity="center"
+                            android:text="Caes" />
+
+                        <TextView
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/white_red"
+                            android:gravity="center"
+                            android:text="Lab11" />
+
+                        <TextView
+                            android:id="@+id/fdf"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:textSize="8sp"
+                            android:background="@drawable/white_red"
+                            android:gravity="center"
+                            android:text="Lab10" />
+
+                        <TextView
+                            android:id="@+id/dfd"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:background="@drawable/white_red"
+                            android:gravity="center"
+                            android:text="BILIkjuman" />
+
+                        <TextView
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".8"
+                            android:background="@drawable/rec"
+                            android:gravity="center"
+                            android:text="" />
+                        <TextView
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".5"
+                            android:textSize="8sp"
+                            android:background="@drawable/fire_exit_bg"
+                            android:gravity="center"
+                            android:text="Fire Exit" />
+                        <TextView
+                            android:id="@+id/sfsf"
+                            style="@style/CustomTextStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/white_red"
+                            android:gravity="center"
+                            android:text="Lab15" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/fireexit"
+                        style="@style/CustomTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:background="@drawable/rec"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Fire Exit" />
+
+                    <TextView
+                        android:id="@+id/stores"
+                        style="@style/CustomTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:background="@drawable/store_bg"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Store" />
+
+                    <TextView
+                        style="@style/CustomTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:background="@drawable/yellow_red"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Toilet" />
+
+                    <TextView
+                        style="@style/CustomTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:background="@drawable/yellow_red"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Toilet" />
+
+                    <TextView
+                        android:id="@+id/caessfs"
+                        style="@style/CustomTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:background="@drawable/rec"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="BILIK MUZIK" />
+
+                    <TextView
+                        android:id="@+id/dfs"
+                        style="@style/CustomTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_gravity="start"
+                        android:background="@drawable/white_red"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Studio" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

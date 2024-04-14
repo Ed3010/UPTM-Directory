@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp">
+
+    <TextView
+        android:id="@+id/fcom"
+        style="@style/CustomTextStyle"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:background="@drawable/rec_purple_red"
+        android:gravity="center"
+        android:text="FCOM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fcom1"
+        style="@style/CustomTextStyle"
+        android:layout_width="30dp"
+        android:background="@drawable/rec_purple_red"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="FCOM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fcom" />
+
+    <TextView
+        android:id="@+id/Cr3.5"
+        style="@style/CustomTextStyle"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white_red"
+        android:gravity="center"
+        android:text="Cr3.5"
+        app:layout_constraintEnd_toEndOf="@+id/mockTeaching"
+        app:layout_constraintStart_toEndOf="@+id/fcom1"
+        app:layout_constraintTop_toBottomOf="@+id/mockTeaching" />
+
+    <TextView
+        android:id="@+id/mockTeaching"
+        style="@style/CustomTextStyle"
+        android:layout_width="30dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/white_red"
+        android:gravity="center"
+        android:text="MockTeaching"
+        app:layout_constraintStart_toEndOf="@+id/fcom" />
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/fire_exit_bg"
+        app:layout_constraintBottom_toBottomOf="@+id/mockTeaching"
+        app:layout_constraintStart_toEndOf="@+id/mockTeaching"
+        app:layout_constraintTop_toTopOf="@+id/mockTeaching">
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:rotation="-90"
+            android:text="Fire Exit" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/lt3.7"
+        style="@style/CustomTextStyle"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rec"
+        android:gravity="center"
+        android:text="LT3.7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mockTeaching" />
+
+    <TextView
+        android:id="@+id/empty"
+        style="@style/CustomTextStyle"
+        android:layout_width="35dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rec"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@+id/lt3.7"
+        app:layout_constraintTop_toTopOf="@+id/mockTeaching" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginHorizontal="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/empty"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="@+id/mockTeaching">
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="@string/work_station_on_pensyarah"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="Work Station ON Pensyarah"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="Work Station ON Pensyarah"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="Work Station ON Pensyarah"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="Work Station ON Pensyarah"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="Work Station ON Pensyarah"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/Cr3.5"
+        app:layout_constraintTop_toBottomOf="@+id/Cr3.5">
+
+        <TextView
+            android:id="@+id/floorLift1"
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lift_bg"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="5dp"
+            android:text="Lift1"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/floorLift2"
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lift_bg"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="5dp"
+            android:text="Lift2"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fireExit"
+        style="@style/CustomTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rec"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Fire Exit"
+        app:layout_constraintEnd_toEndOf="@+id/lt3.7"
+        app:layout_constraintTop_toBottomOf="@+id/lt3.7" />
+
+    <TextView
+        android:id="@+id/empty2"
+        style="@style/CustomTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/pink_white"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@+id/fireExit"
+        app:layout_constraintStart_toStartOf="@+id/empty"
+        app:layout_constraintTop_toBottomOf="@+id/empty" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/fireExit"
+        app:layout_constraintTop_toBottomOf="@+id/fireExit">
+
+        <TextView
+            android:id="@+id/storesds"
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Store" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yellow_red"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Toilet" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yellow_red"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Toilet" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="@+id/empty2"
+        app:layout_constraintTop_toBottomOf="@+id/Cr3.5">
+
+        <TextView
+            android:id="@+id/floorLift3"
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lift_bg"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="5dp"
+            android:text="Lift3"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/floorLift4"
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lift_bg"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="5dp"
+            android:text="Lift4"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="@+id/fcom1"
+        app:layout_constraintTop_toBottomOf="@+id/fcom1">
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yellow_red"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Toilet" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yellow_red"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Toilet" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="@string/work_station_on_pensyarah"
+            android:textSize="6sp" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rec_purple_red"
+            android:textSize="6sp"
+            android:gravity="center"
+            android:text="@string/work_station_on_pensyarah" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="6sp"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="@string/work_station_on_pensyarah" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="6sp"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="@string/work_station_on_pensyarah" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout5"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout5">
+
+        <TextView
+            android:id="@+id/sfsf"
+            style="@style/CustomTextStyle"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="CR3.1" />
+
+        <TextView
+            android:id="@+id/workonstations"
+            style="@style/CustomTextStyle"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="@string/work_station_on_pensyarah" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/CustomTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rec_purple_red"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Store"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="@+id/empty2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:id="@+id/csfdsfsfs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/work_station_on_pensyarah" />
+
+        <TextView
+            android:id="@+id/csr1sfsfssfsf"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+
+            android:gravity="center"
+            android:text="RAUNG REHAT PENSYARAH" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="@string/work_station_on_pensyarah" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:text="@string/work_station_on_pensyarah" />
+
+        <TextView
+                android:id="@+id/csr1sfsfsf"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR3.8" />
+
+        <TextView
+            android:id="@+id/csr1sfsfssf"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR39" />
+
+        <TextView
+            android:id="@+id/csr1sfs"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            android:text="CR3.10" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/CustomTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rec"
+        android:gravity="center"
+        android:text="BILIKGERAKAN EXAM"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/fireExit3"
+            style="@style/CustomTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fire_exit_bg"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Fire Exit" />
+
+        <TextView
+            android:id="@+id/store"
+            style="@style/CustomTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rec_purple_red"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Store" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            android:padding="4dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/stor"
+        style="@style/CustomTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/rec"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Stor"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout10"
+        app:layout_constraintEnd_toStartOf="@+id/stor"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout10">
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/csr1"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CSR 1"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pink_white"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/csr4"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CSR 4"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/csr5"
+            style="@style/CustomTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CSR 5"
+            android:background="@drawable/white_red"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

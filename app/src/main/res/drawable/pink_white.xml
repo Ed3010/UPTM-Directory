@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- You can customize the rectangle with these properties -->
+    <solid android:color="@color/white"/> <!-- Background color -->
+    <!-- Corner radius -->
+    <!-- Optional: Define padding -->
+
+    <!-- Optional: Add stroke -->
+    <stroke
+        android:width="1dp"
+        android:color="#e3ceb5"/>
+</shape>
